@@ -5,6 +5,7 @@ Overview
 
 This document describes a microservices setup using Apache Kafka for messaging and Prometheus + Grafana for monitoring. This architecture is suitable for scalable, event-driven applications.
 
+``` bash
 Architecture Diagram
 +------------------+       +------------------+
 |  Microservice A  |       |  Microservice B  |
@@ -29,6 +30,7 @@ Architecture Diagram
                | Grafana      |
                | (Visualization) |
                +--------------+
+```
 
 Kafka Email Worker
 
