@@ -38,21 +38,19 @@ This project demonstrates a Node.js email worker integrated with Apache Kafka, K
 
 Features
 
-Publish email jobs to Kafka (email-jobs topic)
-
-Kafka consumer to send emails using Nodemailer
-
-Prometheus metrics for:
-
-Total emails sent
-
-Total emails failed
-
-Time taken per email
-
-Kafka UI for monitoring brokers, topics, and consumers
-
-Dockerized setup for Kafka and Kafka UI
+<ul>
+  <li>Publish email jobs to Kafka (email-jobs topic)</li>
+  <li>Kafka consumer to send emails using Nodemailer</li>
+  <li>Prometheus metrics for:
+    <ul>
+      <li>Total emails sent</li>
+      <li>Total emails failed</li>
+      <li>Time taken per email</li>
+    </ul>
+  </li>
+  <li>Kafka UI for monitoring brokers, topics, and consumers</li>
+  <li>Dockerized setup for Kafka and Kafka UI</li>
+</ul>
 
 Requirements
 
